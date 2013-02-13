@@ -1,0 +1,99 @@
+package jp.ktsystem.ambitious.designpattern.builder.sqlbuilder;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SelectBuilder {
+
+	private List<String> select;
+	private String from;
+	private List<String> where;
+	private List<OrderBy> orderby;
+
+	public enum Order {
+		ASC, DESC
+	}
+	class OrderBy {
+		private final String field;
+		private final Order order;
+		public OrderBy(String field, Order order) {
+			this.field = field;
+			this.order = order;
+		}
+	}
+
+	public SelectBuilder() {
+		this.select = new ArrayList<String>();
+		this.from = null;
+		this.orderby = new ArrayList<OrderBy>();
+	}
+
+	public SelectBuilder select(String field) {
+		if (null != from) throw new RuntimeException();
+		this.select.add(field);
+		return this;
+	}
+	public SelectBuilder n(String field) {
+		this.select.add(field);
+		return this;
+	}
+
+	public SelectBuilder from(String table) {
+		this.from = table;
+		return this;
+	}
+
+	public SelectBuilder where(String condition) {
+		this.where = new ArrayList<String>();
+		this.where.add(condition);
+		return this;
+	}
+	public SelectBuilder and(String condition) {
+		// TODO
+		this.where.add(condition);
+		return this;
+	}
+	public SelectBuilder or(String condition) {
+		// TODO
+		this.where.add(condition);
+		return this;
+	}
+	public SelectBuilder orderby(String field, Order order) {
+		this.orderby.add(new OrderBy(field, order));
+		return this;
+	}
+
+	public String build() {
+
+		StringBuilder b = new StringBuilder("select ");
+
+		// select FIELD1, FIELD2, 
+		for (String s : select) {
+			b.append(s).append(", ");
+		}
+		b.setLength(b.length() - ", ".length());
+
+		// from TABLE
+		b.append(" from ").append(from);
+
+		// TODO where
+		if (!where.isEmpty()) {
+			b.append(" where ");
+		}
+		for (String w : where) {
+			b.append(w);
+		}
+
+		// order by
+		if (!orderby.isEmpty()) {
+			b.append(" order by ");
+		}
+		for (OrderBy o : orderby) {
+			b.append(o.field).append(" ").append(o.order).append(", ");
+		}
+
+		b.setLength(b.length() - ", ".length());
+
+		return b.toString();
+	}
+}
