@@ -4,8 +4,7 @@ public class Main {
 
 	public static void main(String[] argus) {
 
-		FacadeClass facade = new FacadeClass();
-		facade.execute();
+		FacadeClass.execute();
 	}
 
 }

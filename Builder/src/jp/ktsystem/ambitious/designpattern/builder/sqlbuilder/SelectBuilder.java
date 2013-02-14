@@ -3,7 +3,17 @@ package jp.ktsystem.ambitious.designpattern.builder.sqlbuilder;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * <h1>SelectBuilder</h1>
+ *
+ * Builder + ChainOfResponsibility
+ *
+ * @author ryoichi0102
+ *
+ */
 public class SelectBuilder {
+
+//	private boolean initialized = false;
 
 	private List<String> select;
 	private String from;

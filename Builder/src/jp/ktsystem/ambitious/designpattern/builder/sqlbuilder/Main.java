@@ -8,7 +8,13 @@ public class Main {
 
 		SelectBuilder builder = new SelectBuilder();
 
-		String sql = builder.select("user_name").n("mail_address").from("m_user").where("user_id like %s").orderby("id", ASC).build();
+		//
+		String sql = builder
+
+			.select("user_name").n("mail_address").from("m_user").where("user_id like %s").orderby("id", ASC)
+
+			.build();
+
 		System.out.println(sql);
 	}
 

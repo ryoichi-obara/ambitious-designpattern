@@ -68,6 +68,10 @@ public class DirectoryClass {
 		files.add(file);
 	}
 
+	public void moveTo(DirectoryClass dir) {
+		childDir.add(dir);
+	}
+
 	// ----- Getter and setter.
 
 	public List<DirectoryClass> getChildDir() {

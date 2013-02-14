@@ -2,16 +2,24 @@ package jp.ktsystem.ambitious.designpattern.facade;
 
 public class FacadeClass {
 
-	public void execute() {
+	private FacadeClass() {}
 
-		LogicA1 a1 = new LogicA1();
-		a1.execute();
+	public static void execute() {
 
-		LogicA2 a2 = new LogicA2();
-		a2.execute();
+		try {
+			// ややこしい処理
+			LogicA1 a1 = new LogicA1();
+			a1.execute();
+	
+			LogicA2 a2 = new LogicA2();
+			a2.execute();
+	
+			LogicA3 a3 = new LogicA3();
+			a3.execute();
 
-		LogicA3 a3 = new LogicA3();
-		a3.execute();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 	}
 }
