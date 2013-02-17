@@ -12,6 +12,17 @@ public class Main {
 
 		// Cannot new SingletonClass();
 		SingletonClass.getInstance().execute();
+		SingletonClass.getInstance().execute();
+
+
+
+		// About static.
+
+		System.out.println(Util.commonProcess());
+		System.out.println(ExtUtil.commonProcess());
+
+		Util u = new ExtUtil();
+		System.out.println(u.commonProcess());
 	}
 
 }

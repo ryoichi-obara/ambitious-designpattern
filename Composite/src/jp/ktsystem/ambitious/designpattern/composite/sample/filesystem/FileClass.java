@@ -1,5 +1,6 @@
 package jp.ktsystem.ambitious.designpattern.composite.sample.filesystem;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -8,7 +9,7 @@ import java.util.Date;
  * @author KTSystem_RyoichiObara
  * @since 2013/1/18
  */
-public class FileClass {
+public class FileClass implements Serializable {
 
 	private String filename;
 	private String attribute;
@@ -17,10 +18,13 @@ public class FileClass {
 
 	private String content;
 
-	public FileClass(String filename, String attribute, String content) {
+	private DirectoryClass parent;
+
+	public FileClass(String filename, String attribute, String content, DirectoryClass parent) {
 		this.filename  = filename;
 		this.attribute = attribute;
 		this.content = content;
+		this.parent = parent;
 
 		this.created = new Date();
 		this.modified = created;
@@ -54,6 +58,10 @@ public class FileClass {
 	public String getFilename() {
 		return filename;
 	}
+	public DirectoryClass getParent() {
+		return parent;
+	}
+
 	public String getAttribute() {
 		return attribute;
 	}

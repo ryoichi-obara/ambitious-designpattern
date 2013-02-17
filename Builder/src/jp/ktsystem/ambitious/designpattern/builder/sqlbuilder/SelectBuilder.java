@@ -38,9 +38,11 @@ public class SelectBuilder {
 		this.orderby = new ArrayList<OrderBy>();
 	}
 
-	public SelectBuilder select(String field) {
+	public SelectBuilder select(String... field) {
 		if (null != from) throw new RuntimeException();
-		this.select.add(field);
+		for (String f : field) {
+			this.select.add(f);
+		}
 		return this;
 	}
 	public SelectBuilder n(String field) {

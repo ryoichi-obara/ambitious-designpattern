@@ -6,7 +6,7 @@ package jp.ktsystem.ambitious.designpattern.singleton.multithread;
  * @author KTSystem_RyoichiObara
  * @since 2013/1/18
  */
-public class MultiSingletonClass {
+public class MultiSingletonClass  {
 
 	/** Instance. */
 	private static MultiSingletonClass instance = null;
@@ -29,6 +29,7 @@ public class MultiSingletonClass {
 		return instance;
 	}
 
+	
 	/**
 	 * 目的の処理.<br>
 	 */

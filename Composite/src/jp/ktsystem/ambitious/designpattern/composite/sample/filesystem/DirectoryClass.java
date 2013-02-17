@@ -1,5 +1,6 @@
 package jp.ktsystem.ambitious.designpattern.composite.sample.filesystem;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
  * @author KTSystem_RyoichiObara
  * @since 2013/1/18
  */
-public class DirectoryClass {
+public class DirectoryClass implements Serializable {
 
 	private List<DirectoryClass> childDir;
 	private List<FileClass> files;
@@ -20,16 +21,19 @@ public class DirectoryClass {
 	private final Date created;
 	private Date modified;
 
+	private DirectoryClass parent;
+
 	/**
 	 * Constructor.<br>
 	 * @param directoryName String
 	 * @param attribute String
 	 */
-	public DirectoryClass(String directoryName, String attribute) {
+	public DirectoryClass(String directoryName, String attribute, DirectoryClass parent) {
 		this.name = directoryName;
 		this.attribute = attribute;
 		this.created = new Date();
 		this.modified = created;
+		this.parent = parent;
 
 		this.childDir = new ArrayList<DirectoryClass>();
 		this.files = new ArrayList<FileClass>();
@@ -52,8 +56,8 @@ public class DirectoryClass {
 	 * @param newDirectoryName String
 	 * @param attribute String
 	 */
-	public void createNewDirectory(String newDirectoryName, String attribute) {
-		DirectoryClass dir = new DirectoryClass(newDirectoryName, attribute);
+	public void createNewDirectory(String newDirectoryName, String attribute, DirectoryClass parent) {
+		DirectoryClass dir = new DirectoryClass(newDirectoryName, attribute, parent);
 		childDir.add(dir);
 	}
 
@@ -64,7 +68,7 @@ public class DirectoryClass {
 	 * @param content String
 	 */
 	public void createNewFile(String filename, String attribute, String content) {
-		FileClass file = new FileClass(filename, attribute, content);
+		FileClass file = new FileClass(filename, attribute, content, this);
 		files.add(file);
 	}
 
@@ -77,6 +81,10 @@ public class DirectoryClass {
 	public List<DirectoryClass> getChildDir() {
 		return childDir;
 	}
+	public DirectoryClass getParent() {
+		return parent;
+	}
+
 	public List<FileClass> getFiles() {
 		return files;
 	}
