@@ -1,0 +1,100 @@
+package jp.ktsystem.ambitious.designpattern.composite.sample.filesystem;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+/**
+ * <h1>Tree class of composite pattern.</h1>
+ *
+ * @author KTSystem_RyoichiObara
+ * @since 2013/1/18
+ */
+public class DirectoryClass implements Serializable {
+
+	private List<DirectoryClass> childDir;
+	private List<FileClass> files;
+
+	private String name;
+	private String attribute;
+	private final Date created;
+	private Date modified;
+
+	private DirectoryClass parent;
+
+	/**
+	 * Constructor.<br>
+	 * @param directoryName String
+	 * @param attribute String
+	 */
+	public DirectoryClass(String directoryName, String attribute, DirectoryClass parent) {
+		this.name = directoryName;
+		this.attribute = attribute;
+		this.created = new Date();
+		this.modified = created;
+		this.parent = parent;
+
+		this.childDir = new ArrayList<DirectoryClass>();
+		this.files = new ArrayList<FileClass>();
+	}
+
+	// ----- Public
+
+	public void changeName(String newDirectoryName) {
+		this.name = newDirectoryName;
+		modified = new Date();
+	}
+
+	public void changeAttribute(String newAttribute) {
+		this.attribute = newAttribute;
+		modified = new Date();
+	}
+
+	/**
+	 * Create new directory under this directory.<br>
+	 * @param newDirectoryName String
+	 * @param attribute String
+	 */
+	public void createNewDirectory(String newDirectoryName, String attribute) {
+		DirectoryClass dir = new DirectoryClass(newDirectoryName, attribute);
+		childDir.add(dir);
+	}
+
+	/**
+	 * Create new file under this directory.<br>
+	 * @param filename String
+	 * @param attribute String
+	 * @param content String
+	 */
+	public void createNewFile(String filename, String attribute, String content) {
+		FileClass file = new FileClass(filename, attribute, content, this);
+		files.add(file);
+	}
+
+	public void moveTo(DirectoryClass dir) {
+		childDir.add(dir);
+	}
+
+	// ----- Getter and setter.
+
+	public List<DirectoryClass> getChildDir() {
+		return childDir;
+	}
+	public List<FileClass> getFiles() {
+		return files;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getAttribute() {
+		return attribute;
+	}
+	public Date getCreated() {
+		return created;
+	}
+	public Date getModified() {
+		return modified;
+	}
+
+}

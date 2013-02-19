@@ -1,0 +1,13 @@
+package jp.ktsystem.ambitious.designpattern.builder.sqlbuilder;
+
+import jp.ktsystem.ambitious.designpattern.builder.sqlbuilder.SelectBuilder.Order;
+
+public class Main {
+
+	public static void main(String[] argus) {
+		
+		SelectBuilder builder = new SelectBuilder();
+
+		String sql = builder.select("user_id").from("m_user").orderby("id", Order.ASC).build();
+	}
+}

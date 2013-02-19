@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1360768310539_1" label="origin" name="origin">
+<item elementID="=Adapter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Composite" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Builder" type="4"/>
+<item elementID="=AbstractFactory" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Facade" type="4"/>
+<item elementID="=FactoryMethod" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Iterator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Singleton" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Template" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1360759065955_0" label="Window Working Set" name="Aggregate for window 1360759065937"/>
+<mruList name="origin"/>
+</workingSetManager>

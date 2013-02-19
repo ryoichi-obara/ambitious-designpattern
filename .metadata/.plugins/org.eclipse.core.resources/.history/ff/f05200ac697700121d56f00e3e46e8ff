@@ -1,0 +1,83 @@
+package jp.ktsystem.ambitious.designpattern.composite.sample.filesystem;
+
+public class Main {
+
+	public static void main(String[] argus) {
+
+		DirectoryClass cDrive = obtainCDrive();
+
+		FileClass result = findFileForDirectory(cDrive, "eclipse.exe");
+
+		if (null == result) {
+			System.out.println("File not found.");
+		} else {
+			System.out.println("File found.");
+			System.out.println(result.getFilename());
+			System.out.println(result.getSize());
+			System.out.println(result.getAttribute());
+			System.out.println(result.getCreated());
+			System.out.println(result.getModified());
+		}
+	}
+
+	protected static FileClass findFileForDirectory(DirectoryClass d, String findFilename) {
+
+		// Search files in directory.
+		for (FileClass f : d.getFiles()) {
+			if (f.getFilename().equals(findFilename)) {
+				return f;
+			}
+		}
+
+		// Nest for child directories.
+		for (DirectoryClass child : d.getChildDir()) {
+			return findFileForDirectory(child, findFilename);
+		}
+
+		return null;
+	}
+
+	/**
+	 * Get folder for sample.<br>
+	 * folder image is below:
+	 *
+	 * C:¥
+	 * + - Program Files
+	 *     + - Microsoft Office
+	 *         * word.exe
+	 *         * excel.exe
+	 *     + - eclipse
+	 *         * eclipse.exe
+	 * + - Windows
+	 *     + - system32
+	 *         * rundll32.dll
+	 *     * win.ini
+	 *
+	 * @return DirectoryClass
+	 */
+	private static DirectoryClass obtainCDrive() {
+		DirectoryClass eclipse = new DirectoryClass("eclipse", "D");
+		eclipse.createNewFile("eclipse.exe", "A", "execfile:eclipse");
+
+		DirectoryClass office = new DirectoryClass("Microsoft Office", "D");
+		office.createNewFile("word.exe", "A", "execfile:word");
+		office.createNewFile("excel.exe", "A", "execfile:excel");
+
+		DirectoryClass programFiles = new DirectoryClass("Program Files", "D");
+		programFiles.moveTo(eclipse);
+		programFiles.moveTo(office);
+
+		DirectoryClass system32 = new DirectoryClass("system32", "D");
+		system32.createNewFile("rundll32.dll", "AS", "dll:rundll32");
+		
+		DirectoryClass windows = new DirectoryClass("Windows", "D");
+		windows.createNewFile("win.ini", "A", "inifile:windows");
+		windows.moveTo(system32);
+
+		DirectoryClass cDrive = new DirectoryClass("C:¥", "D");
+		cDrive.moveTo(programFiles);
+		cDrive.moveTo(windows);
+
+		return cDrive;
+	}
+}

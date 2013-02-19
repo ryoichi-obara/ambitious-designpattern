@@ -1,0 +1,15 @@
+package jp.ktsystem.ambitious.designpattern.bean;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		AbstractClass c1 = new ConcreteClass1();
+		c1.commonProcess();
+
+		
+		AbstractClass c2 = new ConcreteClass2();
+		c2.commonProcess();
+
+	}
+}

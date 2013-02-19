@@ -1,0 +1,46 @@
+package jp.ktsystem.ambitious.designpattern.builder.sqlbuilder;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SelectBuilder {
+
+	private List<String> select;
+	private String from;
+	private List<OrderBy> orderby;
+
+	public enum Order {
+		ASC, DESC
+	}
+	class OrderBy {
+		private final String field;
+		private final Order order;
+		public OrderBy(String field, Order order) {
+			this.field = field;
+			this.order = order;
+		}
+	}
+
+	public SelectBuilder() {
+		this.select = new ArrayList<String>();
+		this.from = null;
+		this.orderby = new ArrayList<OrderBy>();
+	}
+
+	public SelectBuilder select(String field) {
+		if (null != from) throw new RuntimeException();
+		this.select.add(field);
+		return this;
+	}
+
+	public SelectBuilder from(String table) {
+		this.from = table;
+		return this;
+	}
+
+	public SelectBuilder orderby(String field, Order order) {
+		this.orderby.add(new OrderBy(field, order));
+		return this;
+	}
+
+}

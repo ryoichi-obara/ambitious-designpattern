@@ -1,0 +1,213 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767360258
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767361086
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767369042
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.Commit",1360767369095
+error,log,,,"Exception caught during execution of add command",1360767369096
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767369192
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767370881
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.Ignore",1360767375326
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767379259
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767384673
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.Commit",1360767384730
+error,log,,,"Exception caught during execution of add command",1360767384731
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767384824
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767386962
+executed,command,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui.synchronizeLast",1360767389626
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767393691
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767395309
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.AddToIndex",1360767401016
+error,log,,,"Failed to add resource to index",1360767401024
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767401075
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767402763
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767405487
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767417584
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.Commit",1360767417633
+error,log,,,"Exception caught during execution of add command",1360767417635
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767417714
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767419017
+activated,view,org.eclipse.mylyn.tasks.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.tasks.ui.views.repositories",1360767421324
+activated,view,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.sync.views.SynchronizeView",1360767423684
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1360767431552
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767436035
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767437280
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.CreatePatch",1360767437313
+activated,perspective,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.JavaPerspective",1360767441632
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1360767441648
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443132
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443134
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443179
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443182
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443184
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443186
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443188
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443190
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767443192
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767451428
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767453785
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455787
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455789
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455838
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455842
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455844
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455846
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455848
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455850
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767455852
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.SimplePush",1360767460787
+error,log,,,"An exception occurred during push on URI git@github.com:kts-ryoichi-obara/ambitious-designpattern.git: An internal Exception occurred during push: Source ref refs/heads/master doesnt resolve to any object.",1360767460858
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767460909
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767467291
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767467389
+error,log,,,"An exception occurred during push on URI git@github.com:kts-ryoichi-obara/ambitious-designpattern.git: An internal Exception occurred during push: Source ref refs/heads/master doesnt resolve to any object.",1360767471474
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767471504
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767471609
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767473065
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767483344
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767483922
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.window.preferences",1360767483949
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767484278
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767484346
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767488671
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1360767488700
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1360767489342
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490730
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490732
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490780
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490784
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490787
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490789
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490791
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490793
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767490795
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767504531
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767504805
+activated,perspective,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui.TeamSynchronizingPerspective",1360767505234
+activated,view,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.sync.views.SynchronizeView",1360767505244
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767505370
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767508110
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767508239
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767509853
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767512195
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767533479
+activated,perspective,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.JavaPerspective",1360767535997
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1360767536013
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537513
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537516
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537564
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537567
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537569
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537572
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537573
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537576
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767537577
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767541593
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767563737
+executed,command,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui.team.Commit",1360767563765
+error,log,,,"Exception caught during execution of add command",1360767563766
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767563805
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767568577
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575813
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575815
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575862
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575865
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575868
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575870
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575874
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575875
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767575877
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582423
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582427
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582478
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582481
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582482
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582484
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582485
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582487
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767582488
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767585969
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767588825
+executed,command,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui.applyPatch",1360767588854
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589530
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589532
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589579
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589581
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589583
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589584
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589586
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589587
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767589588
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767592211
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767595222
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596021
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596063
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596066
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596069
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596071
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596073
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596075
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596077
+error,log,,,"No property tester contributes a property projectPersistentProperty org.eclipse.team.core.repository to type class org.eclipse.core.internal.resources.Project",1360767596080
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767599176
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1360767603885
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767615865
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767619144
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767784080
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767785190
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767785494
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1360767785606
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1360767786319
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1360767786321
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1360767786337
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1360767786354
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1360767786377
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1360767876730
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1360767876731
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1360767876732
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1360767876733
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1360767876733
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1360767876734
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1360767876734
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1360767876735
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1360767876868
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1360767876869
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1360767876870
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1360767876871
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1360767876872
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1360767876884
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1360767876884
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1360767876885
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1360767876886
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1360767876886
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1360767876887
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1360767876890
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1360767876891
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1360767876891
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1360767876891
+started,bundle,org.eclipse.equinox.p2.core,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.core",1360767876899
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.300.v20110815-1419,"org.eclipse.equinox.p2.directorywatcher",1360767876902
+started,bundle,org.eclipse.equinox.p2.engine,2.1.1.R37x_v20111003,"org.eclipse.equinox.p2.engine",1360767876903
+started,bundle,org.eclipse.equinox.p2.metadata,2.1.0.v20110815-1419,"org.eclipse.equinox.p2.metadata",1360767876903
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.2.0.v20110815-1419,"org.eclipse.equinox.p2.metadata.repository",1360767876903
+started,bundle,org.eclipse.equinox.p2.operations,2.1.1.R37x_v20111111,"org.eclipse.equinox.p2.operations",1360767876904
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.100.v20110815-1419,"org.eclipse.equinox.p2.reconciler.dropins",1360767876914
+started,bundle,org.eclipse.equinox.p2.repository,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.repository",1360767876915
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.100.v20110815-1419,"org.eclipse.equinox.p2.ui.sdk.scheduler",1360767876915
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.200.v20110815-1419,"org.eclipse.equinox.p2.updatechecker",1360767876916
+started,bundle,org.eclipse.equinox.preferences,3.4.2.v20120111-2020,"org.eclipse.equinox.preferences",1360767876916
+started,bundle,org.eclipse.equinox.registry,3.5.101.R37x_v20110810-1611,"org.eclipse.equinox.registry",1360767876917
+started,bundle,org.eclipse.equinox.security,1.1.1.R37x_v20110822-1018,"org.eclipse.equinox.security",1360767876918
+started,bundle,org.eclipse.equinox.util,1.0.300.v20110502,"org.eclipse.equinox.util",1360767876918
+started,bundle,org.eclipse.help,3.5.100.v20110426,"org.eclipse.help",1360767876919
+started,bundle,org.eclipse.jdt.core,3.7.3.v20120119-1537,"org.eclipse.jdt.core",1360767876921
+started,bundle,org.eclipse.jdt.core.manipulation,1.4.0.v20110928-1453,"org.eclipse.jdt.core.manipulation",1360767876922
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20111006_r372,"org.eclipse.jdt.launching",1360767876923
+started,bundle,org.eclipse.jdt.launching.macosx,3.2.100.v20111006_r372,"org.eclipse.jdt.launching.macosx",1360767876924
+started,bundle,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui",1360767876930
+started,bundle,org.eclipse.jface,3.7.0.v20110928-1505,"org.eclipse.jface",1360767876930
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1360767876931
+started,bundle,org.eclipse.jst.ws.jaxws.utils,1.0.100.v201201031437,"org.eclipse.jst.ws.jaxws.utils",1360767876931
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1360767876931
+started,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1360767876933
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1360767876934
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1360767876934

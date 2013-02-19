@@ -1,0 +1,49 @@
+package jp.ktsystem.ambitious.designpattern.composite.sample.filesystem;
+
+public class Main {
+
+	public static void main(String[] argus) {
+
+		DirectoryClass cDrive = obtainCDrive();
+
+		FileClass result = findFileForDirectory(cDrive, "eclipse.exe");
+
+		if (null == result) {
+			System.out.println("File not found.");
+		} else {
+			System.out.println("File found.");
+			System.out.println(result.getFilename());
+			System.out.println(result.getSize());
+			System.out.println(result.getAttribute());
+			System.out.println(result.getCreated());
+			System.out.println(result.getModified());
+		}
+	}
+
+	protected static FileClass findFileForDirectory(DirectoryClass d, String findFilename) {
+
+		// Search files in directory.
+		for (FileClass f : d.getFiles()) {
+			if (f.getFilename().equals(findFilename)) {
+				return f;
+			}
+		}
+
+		// Nest for child directories.
+		for (DirectoryClass child : d.getChildDir()) {
+			return findFileForDirectory(child, findFilename);
+		}
+
+		return null;
+	}
+
+	private static DirectoryClass obtainCDrive() {
+		DirectoryClass d = new DirectoryClass("C:¥", "D");
+		d.createNewDirectory("Program Files", "D");
+		d.getChildDir().get(d.getChildDir().size() - 1).createNewDirectory("eclipse", "D");
+		d.createNewDirectory("Windows", "D");
+
+		
+		return d;
+	}
+}

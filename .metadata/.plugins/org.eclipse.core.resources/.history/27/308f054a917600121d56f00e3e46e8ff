@@ -1,0 +1,11 @@
+package jp.ktsystem.ambitious.designpattern.composite.sample.filesystem;
+
+public class Main {
+
+	public static void main(String[] argus) {
+
+		DirectoryClass d = new DirectoryClass();
+		
+	}
+
+}

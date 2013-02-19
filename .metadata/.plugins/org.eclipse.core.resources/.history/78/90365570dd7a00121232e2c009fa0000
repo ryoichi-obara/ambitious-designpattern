@@ -1,0 +1,8 @@
+package jp.ktsystem.ambitious.designpattern.decorator;
+
+public class Decorator {
+
+	public int exec(int i) {
+		return 0;
+	}
+}

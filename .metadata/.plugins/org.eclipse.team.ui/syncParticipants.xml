@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Git (AbstractFacto...eton, Template)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1360767504558">
+<data forceFetch="false" root="false">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="AbstractFacto...eton, Template" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/Composite" resourceType="4"/>
+<resources resourcePath="/Adapter" resourceType="4"/>
+<resources resourcePath="/Builder" resourceType="4"/>
+<resources resourcePath="/AbstractFactory" resourceType="4"/>
+<resources resourcePath="/Facade" resourceType="4"/>
+<resources resourcePath="/Singleton" resourceType="4"/>
+<resources resourcePath="/Iterator" resourceType="4"/>
+<resources resourcePath="/Factory" resourceType="4"/>
+<resources resourcePath="/Template" resourceType="4"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+</data>
+</participant>
+</syncparticipants>

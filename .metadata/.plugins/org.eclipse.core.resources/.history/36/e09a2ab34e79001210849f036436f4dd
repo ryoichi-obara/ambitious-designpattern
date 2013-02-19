@@ -1,0 +1,16 @@
+package jp.ktsystem.ambitious.designpattern.builder;
+
+public class Main {
+
+	public static void main(String[] argus) {
+		new Builder("1").add("2").add("3").build();
+		
+		
+		
+		
+		StringBuilder s = new StringBuilder();
+		s.append("a").append("p").append("p").append("l").append("e");
+		s.toString();
+	}
+
+}

@@ -1,0 +1,14 @@
+package jp.ktsystem.ambitious.designpattern.bean;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		AbstractClass c1 = create();
+	}
+
+	
+	private static AbstractClass create() {
+		return new ConcreteClass1();
+	}
+}

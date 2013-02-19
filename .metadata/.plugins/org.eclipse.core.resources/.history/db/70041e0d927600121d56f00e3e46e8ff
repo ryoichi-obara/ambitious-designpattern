@@ -1,0 +1,36 @@
+package jp.ktsystem.ambitious.designpattern.composite.sample.filesystem;
+
+public class Main {
+
+	public static void main(String[] argus) {
+
+		DirectoryClass cdrive = obtainCDrive();
+
+		String findname = "eclipse.exe";
+
+		FileClass result = findFileForDirectory(cDrive, "eclipse.exe");
+		result;
+	}
+
+	protected FileClass findFileForDirectory(DirectoryClass d, String findFilename) {
+
+		for (FileClass f : d.getFiles()) {
+			if (f.getFilename().equals(findFilename)) {
+				return f;
+			}
+		}
+
+		for (DirectoryClass child : d.getChildDir()) {
+			return findFileForDirectory(child, findFilename);
+		}
+
+		return null;
+	}
+
+	private static DirectoryClass obtainCDrive() {
+		DirectoryClass d = new DirectoryClass("C:¥", "D");
+		
+
+		return d;
+	}
+}

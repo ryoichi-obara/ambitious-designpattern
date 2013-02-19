@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Process1.java&apos; to &apos;Proxy/src/jp.ktsystem.ambitious.designpattern.proxy.process&apos;&#x0A;- Original project: &apos;Proxy&apos;&#x0A;- Destination element: &apos;Proxy/src/jp.ktsystem.ambitious.designpattern.proxy.process&apos;&#x0A;- Original element: &apos;jp.ktsystem.ambitious.designpattern.proxy.Process1.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;jp.ktsystem.ambitious.designpattern.proxy.process" element1="/src&lt;jp.ktsystem.ambitious.designpattern.proxy{Process1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1361191281279" units="1" version="1.0"/>
+</session>
