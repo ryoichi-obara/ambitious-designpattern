@@ -4,11 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		IfOriginalClass c = obtainProcessClass();
+		IfOriginalClass c = create();
 		c.exec(1);
 	}
 
-	private static IfOriginalClass obtainProcessClass() {
+	private static IfOriginalClass create() {
 		return new ProxyClass();
 	}
 
