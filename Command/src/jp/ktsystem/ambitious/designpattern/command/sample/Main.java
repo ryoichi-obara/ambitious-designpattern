@@ -1,6 +1,6 @@
-package jp.ktsystem.ambitious.designpattern.strategy.sample;
+package jp.ktsystem.ambitious.designpattern.command.sample;
 
-import jp.ktsystem.ambitious.designpattern.strategy.sample.CommandClass.Order;
+import jp.ktsystem.ambitious.designpattern.command.sample.CommandClass.Order;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package jp.ktsystem.ambitious.designpattern.strategy.sample;
+package jp.ktsystem.ambitious.designpattern.command.sample;
 
 import java.io.Serializable;
 import java.util.ArrayList;

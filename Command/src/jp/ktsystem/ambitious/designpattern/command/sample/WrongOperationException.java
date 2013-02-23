@@ -1,4 +1,4 @@
-package jp.ktsystem.ambitious.designpattern.strategy.sample;
+package jp.ktsystem.ambitious.designpattern.command.sample;
 
 public class WrongOperationException extends RuntimeException {
 
