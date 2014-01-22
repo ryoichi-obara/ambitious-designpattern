@@ -4,6 +4,6 @@ public class Main {
 //12345
 // test!!
 // test?
-	// m(_ _)m
+//�ｽ�ｽ�ｽ�ｽ�ｽﾈゑｿｽ�ｽ�ｽ�ｽI
 
 }
