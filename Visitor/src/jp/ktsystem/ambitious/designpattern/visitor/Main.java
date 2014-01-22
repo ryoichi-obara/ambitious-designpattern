@@ -15,8 +15,9 @@ public class Main {
 		f.accept(visitor);
 
 		visitor.getResult();
-		
-		
+		///　メインｗｗ
+
+
 	}
 
 }
