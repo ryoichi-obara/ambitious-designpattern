@@ -9,4 +9,6 @@ public class AFactory extends AbstractFactory {
 		return "A2";
 	}
 
+	/// コメントｗｗ
+
 }
