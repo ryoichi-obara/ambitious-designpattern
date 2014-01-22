@@ -9,4 +9,6 @@ public class BFactory extends AbstractFactory {
 		return "B2";
 	}
 
+	// 菊地コメント
+
 }
