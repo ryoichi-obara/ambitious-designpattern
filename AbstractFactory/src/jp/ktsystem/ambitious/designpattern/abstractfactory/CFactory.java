@@ -9,4 +9,6 @@ public class CFactory extends AbstractFactory {
 		return "C2";
 	}
 
+
+	// Cfactory　ｗ
 }
