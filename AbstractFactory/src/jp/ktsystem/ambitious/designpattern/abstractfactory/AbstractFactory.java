@@ -5,4 +5,7 @@ public abstract class AbstractFactory {
 	public abstract String getField1();
 	public abstract String getField2();
 
+// 菊地コメント
+
+
 }
