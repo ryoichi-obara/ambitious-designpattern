@@ -6,6 +6,6 @@ public abstract class AbstractFactory {
 	public abstract String getField2();
 
 // 菊地コメント
-
+// 小原コメント
 
 }
