@@ -7,5 +7,6 @@ public abstract class AbstractFactory {
 
 // 菊地コメント
 // 小原コメント
+// obatest01ブランチでの変更.
 
 }
