@@ -38,7 +38,7 @@ public class Main {
 		list.add("A");
 		list.add("B");
 		list.add("b");
-
+		list.add("C");
 		return new IteratorClass(list);
 	}
 
