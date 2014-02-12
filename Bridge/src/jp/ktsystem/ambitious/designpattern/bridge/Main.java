@@ -6,7 +6,9 @@ public class Main {
 		// commit test @ sakai
 		// test2aaaaa
 		
-		// commit test @ sakai 2014/2/12
+		
+		
+		// test @ sakai
 	}
 // ��{��R�����g
 }
