@@ -8,4 +8,7 @@ public interface Mediator {
 	public void addWorkPackage(WorkPackage wp);
 	public void addMember(Member member);
 
+	// ついに参加！！
+
+	// もう慣れたもんです
 }

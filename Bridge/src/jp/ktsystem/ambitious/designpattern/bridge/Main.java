@@ -5,6 +5,15 @@ public class Main {
 	public static void main(String[] args) {
 		// commit test @ sakai
 		// test2aaaaa
+		
+		
+		
+		// test @ sakai
+		
+		// ã‚¹ãƒ†ãƒ¼ã‚¸ãƒ³ã‚°ã¦ã™ã¨ã€€ï¼ ã€€é…’äº•
+		
+		// add 1
+		// add 2
 	}
-// “ú–{ŒêƒRƒƒ“ƒg
+// ï¿½ï¿½{ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½g
 }

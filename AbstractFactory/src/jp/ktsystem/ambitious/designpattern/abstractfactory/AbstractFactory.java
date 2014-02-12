@@ -9,4 +9,8 @@ public abstract class AbstractFactory {
 // 小原コメント
 // obatest01ブランチでの変更.
 
+// 2014/2/12 kikuchi add
+
+
+
 }
