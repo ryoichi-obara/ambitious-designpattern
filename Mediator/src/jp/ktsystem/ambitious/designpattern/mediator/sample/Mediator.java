@@ -10,4 +10,5 @@ public interface Mediator {
 
 	// ついに参加！！
 
+	// もう慣れたもんです
 }
