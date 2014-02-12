@@ -11,6 +11,9 @@ public class Main {
 		// test @ sakai
 		
 		// ステージングてすと　＠　酒井
+		
+		// add 1
+		// add 2
 	}
 // ��{��R�����g
 }
