@@ -9,6 +9,8 @@ public class Main {
 		
 		
 		// test @ sakai
+		
+		// ステージングてすと　＠　酒井
 	}
 // ��{��R�����g
 }
