@@ -2,6 +2,9 @@ package jp.ktsystem.ambitious.designpattern.strategy;
 
 public class Main {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		StrategyClass c = create(new StrategistA());
