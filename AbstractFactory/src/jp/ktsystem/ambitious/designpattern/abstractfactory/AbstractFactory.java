@@ -8,4 +8,8 @@ public abstract class AbstractFactory {
 // 菊地コメント
 // 小原コメント
 
+// 2014/2/12 kikuchi add
+
+
+
 }
