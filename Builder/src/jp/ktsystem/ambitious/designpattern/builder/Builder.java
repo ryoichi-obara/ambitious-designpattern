@@ -20,6 +20,7 @@ public class Builder {
 		// 変更を加えました。
 		// 2014/03/12 変更
 		// ブランチを切って変更
+		// 再度変更
 		
 		if (!initialized) throw new RuntimeException("Builder is not initialized.");
 		this.s += s; // (Better to use StringBuilder.)
