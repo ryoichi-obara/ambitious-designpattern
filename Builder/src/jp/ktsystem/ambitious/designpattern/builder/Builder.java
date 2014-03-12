@@ -16,6 +16,9 @@ public class Builder {
 	// --- public
 
 	public Builder add(String s) {
+		
+		// 変更を加えました。
+		
 		if (!initialized) throw new RuntimeException("Builder is not initialized.");
 		this.s += s; // (Better to use StringBuilder.)
 		return this;
