@@ -13,7 +13,7 @@ public class Main {
 
 	public static void main(String[] argus) {
 
-		// コメントを修正。
+		// コメントを修正
 		IteratorClass i = obtainIterator();
 
 		while (i.hasNext()) {
